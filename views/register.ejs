@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gold coin investment - Digital Investment</title>
+    <link rel="shortcut icon" type="image/png" href="https://tradeshub247.net/assets/images/logot.png" />
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/icofont.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/lightcase.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/nice-select.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/animate.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/style.css">
+    <link rel="stylesheet" href="https://tradeshub247.net/assets/css/responsive.css">
+</head>
+
+<body>
+
+
+
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header-top-left d-flex">
+                            <div class="support-part">
+                                <a style="color: white !important" href="" id="support_"><i
+                                        class="fa fa-headphones"></i>Support</a>
+                            </div>
+                            <div class="email-part">
+                                <a style="color: white !important" href="mailto:support@tradeshub247.net"
+                                    id="mailto_"><i class="fa fa-envelope"></i>support@tradeshub247.net</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="header-top-right d-flex align-items-center justify-content-end">
+                            <div class="language-part">
+                                <i class="fa fa-globe"></i>
+                                <style type="text/css">
+                                    a.gflag {
+                                        vertical-align: middle;
+                                        font-size: 16px;
+                                        padding: 1px 0;
+                                        background-repeat: no-repeat;
+                                        background-image: url(//gtranslate.net/flags/16.png);
+                                    }
+
+                                    a.gflag img {
+                                        border: 2px solid white !important;
+                                        color: white !important;
+                                    }
+
+                                    a.gflag:hover {
+                                        background-image: url(//gtranslate.net/flags/16a.png);
+                                    }
+
+                                    #goog-gt-tt {
+                                        /*display: none !important;*/
+                                    }
+
+                                    .goog-te-banner-frame {
+                                        /*display: none !important;*/
+                                    }
+
+                                    .goog-te-menu-value:hover {
+                                        text-decoration: none !important;
+                                    }
+
+                                    body {
+                                        top: 0 !important;
+                                    }
+
+                                    #google_translate_element2 {
+                                        display: none !important;
+                                    }
+
+                                    #language {
+                                        border: 2px solid white !important;
+                                        color: white !important;
+                                    }
+                                </style>
+                                <select id="language_" onchange="doGTranslate(this);">
+                                    <option value="">Select Language</option>
+                                    <option value="en|af">Afrikaans</option>
+                                    <option value="en|sq">Albanian</option>
+                                    <option value="en|ar">Arabic</option>
+                                    <option value="en|hy">Armenian</option>
+                                    <option value="en|az">Azerbaijani</option>
+                                    <option value="en|eu">Basque</option>
+                                    <option value="en|be">Belarusian</option>
+                                    <option value="en|bg">Bulgarian</option>
+                                    <option value="en|ca">Catalan</option>
+                                    <option value="en|zh-CN">Chinese (Simplified)</option>
+                                    <option value="en|zh-TW">Chinese (Traditional)</option>
+                                    <option value="en|hr">Croatian</option>
+                                    <option value="en|cs">Czech</option>
+                                    <option value="en|da">Danish</option>
+                                    <option value="en|nl">Dutch</option>
+                                    <option value="en|en">English</option>
+                                    <option value="en|et">Estonian</option>
+                                    <option value="en|tl">Filipino</option>
+                                    <option value="en|fi">Finnish</option>
+                                    <option value="en|fr">French</option>
+                                    <option value="en|gl">Galician</option>
+                                    <option value="en|ka">Georgian</option>
+                                    <option value="en|de">German</option>
+                                    <option value="en|el">Greek</option>
+                                    <option value="en|ht">Haitian Creole</option>
+                                    <option value="en|iw">Hebrew</option>
+                                    <option value="en|hi">Hindi</option>
+                                    <option value="en|hu">Hungarian</option>
+                                    <option value="en|is">Icelandic</option>
+                                    <option value="en|id">Indonesian</option>
+                                    <option value="en|ga">Irish</option>
+                                    <option value="en|it">Italian</option>
+                                    <option value="en|ja">Japanese</option>
+                                    <option value="en|ko">Korean</option>
+                                    <option value="en|lv">Latvian</option>
+                                    <option value="en|lt">Lithuanian</option>
+                                    <option value="en|mk">Macedonian</option>
+                                    <option value="en|ms">Malay</option>
+                                    <option value="en|mt">Maltese</option>
+                                    <option value="en|no">Norwegian</option>
+                                    <option value="en|fa">Persian</option>
+                                    <option value="en|pl">Polish</option>
+                                    <option value="en|pt">Portuguese</option>
+                                    <option value="en|ro">Romanian</option>
+                                    <option value="en|ru">Russian</option>
+                                    <option value="en|sr">Serbian</option>
+                                    <option value="en|sk">Slovak</option>
+                                    <option value="en|sl">Slovenian</option>
+                                    <option value="en|es">Spanish</option>
+                                    <option value="en|sw">Swahili</option>
+                                    <option value="en|sv">Swedish</option>
+                                    <option value="en|th">Thai</option>
+                                    <option value="en|tr">Turkish</option>
+                                    <option value="en|uk">Ukrainian</option>
+                                    <option value="en|ur">Urdu</option>
+                                    <option value="en|vi">Vietnamese</option>
+                                    <option value="en|cy">Welsh</option>
+                                    <option value="en|yi">Yiddish</option>
+                                </select>
+                                <div id="google_translate_element2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl">
+                    <a class="site-logo site-title" href="/">Gold coin investment</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu-toggle"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav main-menu ml-auto">
+                            <li class="active"><a href="/">Home</a>
+                            </li>
+                            <li class=""><a href="?a=cust&page=about">about</a></li>
+                            <li class=""><a href="?a=cust&page=investment">Investment</a></li>
+                            <li class=""><a href="?a=cust&page=affiliate">Affiliate</a></li>
+                            <!-- <li class=""><a href="?a=cust&page=forex">Forex</a></li>
+              <li class=""><a href="?a=cust&page=stocks">Stocks</a></li>-->
+
+                            <li class=""><a href="?a=support">contact us</a></li>
+                        </ul>
+                        <div class="header-join-part">
+
+                            <a style="margin: 10px" type="button" href="login.html" class="btn btn-primary btn-hover"
+                                data-toggle="modal">Login</a>
+                            <a type="button" href="/reg.html" class="btn btn-primary btn-hover"
+                                data-toggle="modal">Register</a>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div><!-- header-bottom end -->
+    </header>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit2() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false
+            }, 'google_translate_element2');
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.org/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        eval(function (p, a, c, k, e, r) {
+            e = function (c) {
+                return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+            };
+            if (!''.replace(/^/, String)) {
+                while (c--) r[e(c)] = k[c] || e(c);
+                k = [function (e) {
+                    return r[e]
+                }];
+                e = function () {
+                    return '\\w+'
+                };
+                c = 1
+            };
+            while (c--)
+                if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+            return p
+        }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+    /* ]]> */
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "+1(714)919‑9312", // WhatsApp number
+                    call_to_action: "Message us", // Call to action
+                    position: "left", // Position may be 'right' or 'left'
+                };
+                var proto = document.location.protocol,
+                    host = "getbutton.io",
+                    url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+    </script>
+
+
+
+    <!-- inner-page-banner-section start -->
+    <section class="inner-page-banner-section gradient-bg">
+        <div class="illustration-img"><img src="assets/images/inner-page-banner-illustrations/contact.png"
+                alt="image-illustration"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="inner-page-content-area">
+                        <h2 class="page-title">Create Account</h2>
+                        <nav aria-label="breadcrumb" class="page-header-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item">Register</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inner-page-banner-section end -->
+
+    <section class="contact-section mt-minus pb-120">
+        <div class="container">
+            <div class="contact-form-area">
+                <div class="row justify-content-center">
+
+                    <div class="signin-wrapper col-lg-6">
+                        <div class="signin-wrapper-header text-center">
+                            <div>
+                                <img src="assets/images/logo.png" height="30" alt="image" style="
+    height: 70px;
+    margin-top: 30px;
+">
+                            </div>
+                            <h3 class="title">Signup</h3>
+                            <p>Create your free account today!</p>
+                        </div>
+
+
+
+                        <script language=javascript>
+                            function checkform() {
+                                document.regform.email1.value = document.regform.email.value;
+                                if (document.regform.fullname.value == '') {
+                                    alert("Please enter your full name!");
+                                    document.regform.fullname.focus();
+                                    return false;
+                                }
+
+
+                                if (document.regform.username.value == '') {
+                                    alert("Please enter your username!");
+                                    document.regform.username.focus();
+                                    return false;
+                                }
+                                if (!document.regform.username.value.match(/^[A-Za-z0-9_\-]+$/)) {
+                                    alert("For username you should use English letters and digits only!");
+                                    document.regform.username.focus();
+                                    return false;
+                                }
+                                if (document.regform.password.value == '') {
+                                    alert("Please enter your password!");
+                                    document.regform.password.focus();
+                                    return false;
+                                }
+                                if (document.regform.password.value != document.regform.password2.value) {
+                                    alert("Please check your password!");
+                                    document.regform.password2.focus();
+                                    return false;
+                                }
+
+
+                                if (document.regform.email.value == '') {
+                                    alert("Please enter your e-mail address!");
+                                    document.regform.email.focus();
+                                    return false;
+                                }
+                                if (document.regform.email.value != document.regform.email1.value) {
+                                    alert("Please retupe your e-mail!");
+                                    document.regform.email.focus();
+                                    return false;
+                                }
+
+                                for (i in document.regform.elements) {
+                                    f = document.regform.elements[i];
+                                    if (f.name && f.name.match(/^pay_account/)) {
+                                        if (f.value == '') continue;
+                                        var notice = f.getAttribute('data-validate-notice');
+                                        var invalid = 0;
+                                        if (f.getAttribute('data-validate') == 'regexp') {
+                                            var re = new RegExp(f.getAttribute('data-validate-regexp'));
+                                            if (!f.value.match(re)) {
+                                                invalid = 1;
+                                            }
+                                        } else if (f.getAttribute('data-validate') == 'email') {
+                                            var re = /^[^\@]+\@[^\@]+\.\w{2,4}$/;
+                                            if (!f.value.match(re)) {
+                                                invalid = 1;
+                                            }
+                                        }
+                                        if (invalid) {
+                                            alert('Invalid account format. Expected ' + notice);
+                                            f.focus();
+                                            return false;
+                                        }
+                                    }
+                                }
+
+                                if (document.regform.agree.checked == false) {
+                                    alert("You have to agree with the Terms and Conditions!");
+                                    return false;
+                                }
+
+                                return true;
+                            }
+
+                            function IsNumeric(sText) {
+                                var ValidChars = "0123456789";
+                                var IsNumber = true;
+                                var Char;
+                                if (sText == '') return false;
+                                for (i = 0; i < sText.length && IsNumber == true; i++) {
+                                    Char = sText.charAt(i);
+                                    if (ValidChars.indexOf(Char) == -1) {
+                                        IsNumber = false;
+                                    }
+                                }
+                                return IsNumber;
+                            }
+                        </script>
+
+
+
+
+
+                        <form method=post onsubmit="return checkform()" name="regform"><input type="hidden"
+                                name="form_id" value="17215500793783"><input type="hidden" name="form_token"
+                                value="b3a1432fa02174a93160cb35b727ec98">
+                            <input type=hidden name=a value="signup">
+                            <input type=hidden name=action value="signup"><br>
+                            <div class="form-group">
+                                <label for="signinPass">Full Name*</label>
+                                <input type="text" class="form-control" name=fullname value=''
+                                    placeholder="John Deo Smith ">
+                            </div>
+                            <div class="form-group">
+                                <label for="signinPass">Username*</label>
+                                <input type="text" class="form-control" name=username value=''
+                                    placeholder="johnnydeo22">
+                            </div>
+                            <div class="form-group">
+                                <label for="signinEmail">Email*</label>
+                                <input type="email" class="form-control" name=email value=''
+                                    placeholder="Enter your Email">
+                                <input type="hidden" class="form-control" name=email1 value=''
+                                    placeholder="Enter your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="signinPass">Password*</label>
+                                <input type="password" class="form-control" name=password value=''
+                                    placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="signinPass">Confirm Password*</label>
+                                <input type="password" class="form-control" name=password2 value=''
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="signinPass">Bitcoin Wallet Address*</label>
+                                <input type="text" class="form-control" name="pay_account[1006][Wallet Address]"
+                                    value="" placeholder="Bitcoin Wallet Address">
+                            </div>
+                            <div class="form-group">
+                                <label for="signinPass">Ethereum Wallet Address*</label>
+                                <input type="text" class="form-control" name="pay_account[1007][Wallet Address]"
+                                    value="" placeholder="Ethereum Wallet Address">
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <!--
+<tr>
+ <td>Your Upline:</td>
+ <td>N/A (n/a)</td>
+</tr>
+-->
+                            </div>
+
+
+
+
+                            <div class="form-group">
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" name="agree" value=1 checked>
+                                    <label for="agree"></label>I agree with <a
+                                        href="?a=cust&page=terms-and-conditions">Terms and conditions</a>
+                                    <span class="checkbox"></span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-hover">Register</button>
+                        </form>
+                        <div class="signin-wrapper-footer">
+                            <p class="bottom-text">Already have an account?<a href="?a=login">Login</a></p>
+                            <!-- <div class="divider"><span>or</span></div>
+              <ul class="social-list">
+                <li><a href="#0"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-linkedin"></i></a></li>
+              </ul> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links-area pt-120">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="section-header text-center">
+                                <span class="section-subtitle">Join The Conversation!</span>
+                                <h2 class="section-title">Browse Our Social Pages</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-none-30">
+                        <!--<div class="col-lg-3 col-sm-6">-->
+                        <!--  <div class="social-media-item text-center mb-30">-->
+                        <!--    <div class="icon"> -->
+                        <!--      <i class="fa fa-facebook-f"></i>-->
+                        <!--    </div>-->
+                        <!--    <div class="content">-->
+                        <!--      <h3 class="counter">100+</h3>-->
+                        <!--      <p>facebook members</p>-->
+                        <!--      <a href="https://www.facebook.com//" class="join-btn">join!</a>-->
+                        <!--    </div>-->
+                        <!--  </div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <footer class="footer-section">
+        <div class="footer-top bg_img" data-background="assets/images/footer-bg-2.png">
+            <div class="container">
+                <!--<div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="section-header text-white text-center">
+              <span class="section-subtitle">Subscribe to 247tradehub</span>
+              <h2 class="section-title">To Get Exclusive Benefits</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="subscribe-wrapper style--two">
+              <form class="subscribe-form"><input type="hidden" name="form_id" value="17215500793783"><input type="hidden" name="form_token" value="b3a1432fa02174a93160cb35b727ec98">
+                <input type="text" name="subs_name" id="subs_name" placeholder="Your Email Address">
+                <button type="submit" class="subs-btn">subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>-->
+                <div class="row mb-none-30">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget mb-30">
+                            <h3 class="widget-title">About 247tradehub</h3>
+                            <ul class="footer-menu-list">
+                                <li><a href="?a=cust&page=about">About</a></li>
+                                <li><a href="?a=support">Contact Us</a></li>
+                                <li><a href="?a=cust&page=investment">Our Plans</a></li>
+                                <li><a href="?a=cust&page=affiliate">Affiliate</a></li>
+                                <li><a href="?a=cust&page=safety-and-security">Safety & Security</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- footer-widget end -->
+                    <!--<div class="col-lg-3 col-sm-6">
+            <div class="footer-widget mb-30">
+              <h3 class="widget-title">My Account</h3>
+              <ul class="footer-menu-list">
+                <li><a href="./dashboard/invest/index">Manage Your Account</a></li>
+                <li><a href="./dashboard/invest/invest">Deposit</a></li>
+                <li><a href="./dashboard/invest/withdrawal-form">Withdraw</a></li>
+
+                <li><a href="./dashboard/invest/schemes">Investments</a></li>
+              </ul>
+            </div>
+          </div>-->
+                    <!-- footer-widget end -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget mb-30">
+                            <h3 class="widget-title">help center</h3>
+                            <ul class="footer-menu-list">
+                                <li><a href="?a=support">Direct Contact</a></li>
+                                <!-- <li><a href="./faq">FAQ</a></li> -->
+                                <li><a href="?a=cust&page=how-work">How it works</a></li>
+                                <li><a href="?a=cust&page=terms-and-conditions">Terms and Conditions</a></li>
+                                <li><a href="?a=cust&page=what-we-offer">What we offer</a></li>
+                                <li><a href="?a=cust&page=privacy-and-policy">Privacy and Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- footer-widget end -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget mb-30">
+                            <h3 class="widget-title">Contact</h3>
+                            <ul class="footer-menu-list">
+                                <li><a href="#0">
+                                        Boyce Avenue 94301, Palo Alto California, Unites States </a></li>
+
+                                <li>
+                                    <a href="#">
+                                        +1 (714) 919‑9312</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:support@tradeshub247.net">support@tradeshub247.net</a>
+                                </li>
+                                <li>
+                                    <!--<a href="https://www.facebook.org/uniontradepro/" target="_blank">-->
+                                    <!--<i class="fa fa-facebook"></i>-->
+                                    <!--</a>-->
+
+                                    <!--<a href="https://twitter.org/uniontradepro" target="_blank">-->
+                                    <!--<i class="fa fa-twitter"></i>-->
+                                    <!--</a>
+<a href="#" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+<a href="#" target="_blank">
+<i class="fa fa-telegram"></i>
+
+</a>-->
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- footer-widget end -->
+                </div>
+                <!-- <div class="row">
+          <div class="col-lg-12">
+            <div class="btn-area text-center border-top-bottom">
+              <a href="#0" class="wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.5s"><img src="assets/images/buttons/google.png" alt="button"></a>
+              <a href="#0" class="wow zoomIn" data-wow-duration="0.7s" data-wow-delay="0.5s"><img src="assets/images/buttons/apple.png" alt="button"></a>
+            </div>
+          </div>
+        </div> -->
+            </div>
+        </div>
+        <div style="width:100%;position:fixed;left:0;z-index:99;bottom:0;">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        {
+                            "symbols": [
+                                {
+                                    "proName": "BITSTAMP:BTCUSD",
+                                    "title": "Bitcoin"
+                                },
+                                {
+                                    "proName": "BITSTAMP:ETHUSD",
+                                    "title": "Ethereum"
+                                },
+                                {
+                                    "description": "",
+                                    "proName": "BINANCE:DOGEUSDT"
+                                },
+                                {
+                                    "description": "Tron",
+                                    "proName": "BINGX:TRXUSDT"
+                                },
+                                {
+                                    "description": "Binance coin",
+                                    "proName": "POLONIEX:BNBUSDT"
+                                },
+                                {
+                                    "description": "Bitcoin Cash",
+                                    "proName": "COINBASE:BCHUSD"
+                                }
+                            ],
+                                "showSymbolLogo": true,
+                                    "colorTheme": "light",
+                                        "isTransparent": false,
+                                            "displayMode": "adaptive",
+                                                "locale": "en"
+                        }
+                    </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+        <div class="footer-bottom" style="margin-bottom:2.6rem">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copy-right-text text-md-left text-center mb-md-0 mb-3">Copyright © 2023. All Rights
+                            Reserved By <a href="/">247tradehub</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-list text-md-right text-center">
+                            <!-- <a href="#0"><img src="assets/images/icons/card-options/americanexpress.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/maestro.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/visa.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/paypal.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/mastercard.png" alt="image"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-section end -->
+
+    <!-- scroll-to-top start -->
+    <div class="scroll-to-top">
+        <span class="scroll-icon">
+            <i class="fa fa-rocket"></i>
+        </span>
+    </div>
+    <!-- scroll-to-top end -->
+
+    <script src="https://tradeshub247.net/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/bootstrap.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/jquery.nice-select.js"></script>
+    <script src="https://tradeshub247.net/assets/js/lightcase.js"></script>
+    <script src="https://tradeshub247.net/assets/js/owl.carousel.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/jquery-ui.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/wow.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/jquery.waypoints.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/jquery.countup.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/jquery.paroller.min.js"></script>
+    <script src="https://tradeshub247.net/assets/js/main.js"></script>
+
+    <!-- <script src="./scripts/login.js"></script> -->
+    <!-- <script src="./scripts/register.js"></script> -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/626962c8b0d10b6f3e6fa334/1g1lqjp3j';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
